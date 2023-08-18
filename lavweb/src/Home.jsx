@@ -3,10 +3,8 @@ import { useDispatch,useSelector } from 'react-redux';
 
 
 const Home = () => {
-
-
   const dispatch = useDispatch();
-  const {c} = useSelector(state=>state.custom)
+  const {c} = useSelector((state)=>state.custom)
 
   const add = () =>{
     dispatch({

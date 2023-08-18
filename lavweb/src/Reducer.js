@@ -8,7 +8,7 @@ export const customReducer = createReducer(initialState,{
         state.c +=1;
     },        
     incrementByValue:(state,action)=>{
-        state.c += 1;
+        // state.c += 1;
         state.c += action.payload;
     },
     decrement:(state)=>{
